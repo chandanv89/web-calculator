@@ -112,5 +112,6 @@ var clicked = function(id){
    var dispContent = disp.value || "";
    var btnId = id.id;
    var btnValue = btnId.match(/[acdmnprstx0-9]/);
+   console.log(btnValue);
    disp.update(btnValue);
 }
