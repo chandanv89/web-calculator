@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+   <head>
+      <title>Simple Calculator</title>
+      <link rel="stylesheet" type="text/css" href="style.css"></link>
+      <script type="text/javascript" src="script.js"></script>
+   </head>
+   <body>
+      <div class="container">
+         <!--<div class="calci"> -->
+            <table cell-space="0" cell-padding="0">
+               <tr class="row"><td class="display" colspan="4"><div id="display"></div></td></tr>
+               <tr class="row">
+                  <td class="cell"><div id="_c" class="btn" onClick="clicked(this)"><span class="label op">C</span></div></td>
+                  <td class="cell"><div id="_n" class="btn" onClick="clicked(this)"><span class="label op">&plusmn;</span></div></td>
+                  <td class="cell"><div id="_r" class="btn" onClick="clicked(this)"><span class="label op">&radic;<span calss="label op" style="text-decoration:overline">&nbsp;</span></span></div></td>
+                  <td class="cell"><div id="_d" class="btn" onClick="clicked(this)"><span class="label op">÷</span></div></td>
+               </tr>
+               <tr class="row">
+                  <td class="cell"><div id="_7" class="btn" onClick="clicked(this)"><span class="label digit">7</span></div></td>
+                  <td class="cell"><div id="_8" class="btn" onClick="clicked(this)"><span class="label digit">8</span></div></td>
+                  <td class="cell"><div id="_9" class="btn" onClick="clicked(this)"><span class="label digit">9</span></div></td>
+                  <td class="cell"><div id="_m" class="btn" onClick="clicked(this)"><span class="label op">x</span></div></td>
+               </tr>
+               <tr class="row">
+                  <td class="cell"><div id="_4" class="btn" onClick="clicked(this)"><span class="label digit">4</span></div></td>
+                  <td class="cell"><div id="_5" class="btn" onClick="clicked(this)"><span class="label digit">5</span></div></td>
+                  <td class="cell"><div id="_6" class="btn" onClick="clicked(this)"><span class="label digit">6</span></div></td>
+                  <td class="cell"><div id="_s" class="btn" onClick="clicked(this)"><span class="label op">&minus;</span></div></td>
+               </tr>
+               <tr class="row">
+                  <td class="cell"><div id="_1" class="btn" onClick="clicked(this)"><span class="label digit">1</span></div></td>
+                  <td class="cell"><div id="_2" class="btn" onClick="clicked(this)"><span class="label digit">2</span></div></td>
+                  <td class="cell"><div id="_3" class="btn" onClick="clicked(this)"><span class="label digit">3</span></div></td>
+                  <td class="cell" rowspan="2"><div id="_a" class="btn" onClick="clicked(this)"><span class="label op">&plus;</span></div></td>
+               </tr>
+               <tr class="row">
+                  <td class="cell"><div id="_p" class="btn" onClick="clicked(this)"><span class="label op">.</span></div></td>
+                  <td class="cell"><div id="_0" class="btn" onClick="clicked(this)"><span class="label digit">0</span></div></td>
+                  <td class="cell"><div id="_t" class="btn" onClick="clicked(this)"><span class="label op">=</span></div></td>
+               </tr>
+            </table>
+         <!--</div>--> <!-- calci -->
+      </div>
+   </body>
+</html>
